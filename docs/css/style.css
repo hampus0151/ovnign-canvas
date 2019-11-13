@@ -1,0 +1,36 @@
+body {
+	display: flex;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+main {
+	margin: 0 auto;
+	width: 60%;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+p {
+	font-size: 1.2em;
+}
+
+ul, ol{
+	margin: 1em;
+}
+
+ul > li {
+	list-style: none;
+}
+
+.layer {
+    position: absolute;
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.border {
+	border: 1px solid black;
+}
